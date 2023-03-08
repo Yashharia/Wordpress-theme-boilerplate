@@ -1,0 +1,32 @@
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: var(--black);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  strong,
+  b {
+    font-weight: 800;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.sub-heading {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+  }
+}
