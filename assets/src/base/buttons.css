@@ -1,0 +1,27 @@
+.btn{
+    padding: 17px 32px 18px;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    text-decoration: none;
+    &:hover{
+        background-color: var(--white);
+        color: var(--black);
+    }
+    &.btn-white{
+        background-color: var(--white);
+        color: var(--black);  
+        &:hover{
+            background-color: var(--black);
+            color: var(--white);
+        }
+    }
+    &.btn-black{
+        background-color: var(--black);
+        color: var(--white);  
+        border: 2px solid var(--white);
+        &:hover{
+            background-color: var(--white);
+            color: var(--black);
+        }
+    }
+}
