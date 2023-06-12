@@ -3939,11 +3939,6 @@ function my_theme_register_required_plugins() {
       'required' => true,
     ),
     array( 
-      'name'     => 'Disable Admin Notices individually', 
-      'slug'     => 'disable-admin-notices', 
-      'required' => true,
-    ),
-    array( 
       'name'     => 'Disable Gutenberg', 
       'slug'     => 'disable-gutenberg', 
       'required' => true,
@@ -3957,7 +3952,12 @@ function my_theme_register_required_plugins() {
 		'name'     => 'Contact Form 7 Database Addon – CFDB7', 
 		'slug'     => 'contact-form-cfdb7', 
 		'required' => true,
-	  ),
+	),
+	array( 
+		'name'     => 'Duplicate Post', 
+		'slug'     => 'copy-delete-posts', 
+		'required' => true,
+	),
   );
 
   /*
