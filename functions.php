@@ -76,4 +76,6 @@ add_action('wp_enqueue_scripts', 'wp_theme_enqueues');
 require get_template_directory() . '/inc/wp-admin-page.php';
 require get_template_directory() . '/inc/acf-settings.php';
 require get_template_directory() . '/inc/functions-cpt.php';
- 
+
+//no essential code is in the below file
+require get_template_directory() . '/inc/install-required-plugins.php'; //remove after plugins are installed 
